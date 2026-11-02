@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Login – E-commerce Demo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div><strong>E-commerce Demo</strong></div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="register.html">Register</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <h2>Login</h2>
+      <p class="badge">Tip: Create a user from Register, or manually create an admin in MongoDB with role="admin".</p>
+
+      <form id="loginForm">
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button class="btn" type="submit">Login</button>
+      </form>
+    </div>
+  </main>
+
+  <script src="js/auth.js"></script>
+</body>
+</html>
